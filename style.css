@@ -1,0 +1,191 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #d99177;
+  color: #5c2b2b;
+  scroll-behavior: smooth;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  background-color: #f26d6d;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #b22222;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  background-color: #b22222;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #8b1a1a;
+}
+
+/* Hero */
+.hero {
+  background-color: #d99177;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.texto-hero h1 {
+  font-size: 50px;
+  color: #b22222;
+}
+
+.texto-hero p {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #b22222;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #111010;
+}
+
+/* Seções */
+.sessao {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sessao h2 {
+  font-size: 36px;
+  color: #830707;
+  margin-bottom: 20px;
+}
+
+.sessao p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+/* Serviços */
+.lista-servicos {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.lista-servicos li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Galeria */
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.galeria img {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Formulário */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #271010;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: none;
+  border-color: #b22222;
+}
+
+/* Rodapé */
+.rodape {
+  background-color: #dfd8d8;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.rodape .redes a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #5c2b2b;
+  transition: color 0.3s;
+}
+
+.rodape .redes a:hover {
+  color: #b22222;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .texto-hero h1 {
+    font-size: 36px;
+  }
+
+  .sessao h2 {
+    font-size: 28px;
+  }
+
+  .galeria img {
+    width: 90%;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
