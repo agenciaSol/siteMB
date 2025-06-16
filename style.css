@@ -97,6 +97,7 @@ body {
 
 .sessao p {
   font-size: 18px;
+  text-align: justify;  
   max-width: 700px;
   margin: 0 auto 20px auto;
 }
@@ -187,9 +188,6 @@ body {
   .menu {
     flex-direction: column;
     gap: 10px;
-  }
-  .p{
-    text-align: justify;
   }
 }
  
