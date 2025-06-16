@@ -7,14 +7,14 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #d99177;
+  background-color: #fff5f5;
   color: #5c2b2b;
   scroll-behavior: smooth;
 }
 
 /* Cabeçalho */
 .cabecalho {
-  background-color: #f26d6d;
+  background-color: #ffe6e6;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -52,7 +52,7 @@ body {
 
 /* Hero */
 .hero {
-  background-color: #d99177;
+  background-color: #ffebeb;
   padding: 100px 20px;
   text-align: center;
 }
@@ -80,7 +80,7 @@ body {
 }
 
 .botao:hover {
-  background-color: #111010;
+  background-color: #8b1a1a;
 }
 
 /* Seções */
@@ -91,7 +91,7 @@ body {
 
 .sessao h2 {
   font-size: 36px;
-  color: #830707;
+  color: #b22222;
   margin-bottom: 20px;
 }
 
@@ -140,7 +140,7 @@ body {
 .formulario input,
 .formulario textarea {
   padding: 10px;
-  border: 1px solid #271010;
+  border: 1px solid #d4a1a1;
   border-radius: 8px;
   font-size: 16px;
 }
@@ -153,7 +153,7 @@ body {
 
 /* Rodapé */
 .rodape {
-  background-color: #dfd8d8;
+  background-color: #ffe6e6;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
@@ -188,4 +188,9 @@ body {
     flex-direction: column;
     gap: 10px;
   }
+  .p{
+    text-align: justify;
+  }
 }
+ 
+  
