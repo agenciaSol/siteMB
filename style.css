@@ -44,7 +44,7 @@ body {
 }
 
 .menu a:hover {
-  background-color: #8b1a1a;.
+  background-color: #8b1a1a;
 }
 
 /* Botão hamburguer */
@@ -112,7 +112,7 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
-  justify-content: center;
+  justify-content:center; 
   flex-wrap: wrap;
 }
 
@@ -121,7 +121,8 @@ body {
 }
 
 .imagem-historia img {
-  width: 350px;
+  width: 450px;
+  height: 500px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
