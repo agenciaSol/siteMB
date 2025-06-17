@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Cabeçalho */
+
 .cabecalho {
   background-color: #a63f3f;
   padding: 20px;
@@ -47,7 +47,7 @@ body {
   background-color: #8b1a1a;
 }
 
-/* Botão hamburguer */
+
 .menu-hamburguer {
   display: none;
   font-size: 30px;
@@ -55,7 +55,7 @@ body {
   user-select: none;
 }
 
-/* Hero */
+
 .hero {
   background-color: #f1d1d1;
   padding: 100px 20px;
@@ -88,7 +88,7 @@ body {
   background-color: #8b1a1a;
 }
 
-/* Seções gerais */
+
 .sessao {
   padding: 60px 20px;
   text-align: center;
@@ -107,7 +107,7 @@ body {
   margin: 0 auto 20px auto;
 }
 
-/* Minha História */
+
 .historia .conteudo-historia {
   display: flex;
   align-items: center;
@@ -127,7 +127,7 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Serviços */
+
 .lista-servicos {
   list-style: none;
   padding: 0;
@@ -139,7 +139,7 @@ body {
   font-size: 18px;
 }
 
-/* Galeria */
+
 .galeria {
   display: flex;
   justify-content: center;
